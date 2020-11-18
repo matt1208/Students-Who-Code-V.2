@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Snow from 'resnow'
 
 export default function Home() {
   return (
@@ -13,16 +14,14 @@ export default function Home() {
       <ul className={styles.navbar}>
         <Link href="/"><img src="/src/Logo2.png" alt="Home Logo" height="75px" width="75px"></img></Link>
       <div className={styles.rightnavarea}>
-        <li className={styles.rightnav}><Link href="/">Sign Up</Link></li>
-        <li className={styles.rightnav}><Link href="/">Login</Link></li>
-        <li className={styles.rightnav}><Link href="/">Courses</Link></li>
+        <li className={styles.rightnav}><Link href="/signup">Coding Connected</Link></li>
+        <li className={styles.rightnav}><Link href="/courses">Courses</Link></li>
       </div>
     </ul>
-
     <div className={styles.tightrow}>
       <div className={styles.tightcolumn}>
         <p className={styles.headerTitle}>Students Who Code</p>
-        <p className={styles.subtitle}>Computer science and coding courses created by students for students - for free. Create an account to get started.</p>
+        <p className={styles.subtitle}>Computer science and coding courses created by students for students all for free. Create an account to get started.</p>
         <button className={styles.headerbtn}>Sign Up</button>
       </div>
       <div className={styles.tightcolumn}>
@@ -69,6 +68,11 @@ export default function Home() {
           <center><Link href="login.html"><button className={styles.secondarybtndark}>Login</button></Link></center>
           <br></br>
         </div>
+    </div>
+
+    <div className={styles.footer}>
+      <h2>Students Who Code</h2>
+      <h2><Link href="about.html">About</Link> |<Link href="contact.html">Contact Us</Link> | <Link href="signup.html">Sign Up</Link></h2>
     </div>
 
 
