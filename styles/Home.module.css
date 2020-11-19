@@ -37,13 +37,31 @@
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis: 35%;
   padding: 1.5rem;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   background-color: #1F1F1F;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+.tag {
+  width: 100px;
+  height: 31px;
+  background-color: #ED553B;
+  border: #ED553B;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  color: white; 
+  padding-top: 5px;
 }
 
 .rightnavarea {
@@ -80,6 +98,9 @@
     border-radius: 10px;
     color: white;
     background-color: #1F1F1F;
+
+
+
     border-color: #1F1F1F;
     border-style: solid;
     margin-top: 5px;
@@ -1218,12 +1239,13 @@
 }
 
 .projectshowcase {
-  float: left;
-  width: 31.5%;
-  padding: 10px;
-  height: 200px;
+  background-color:#ed553b;
+  height: 300px;
   border-radius: 20px;
   text-align: center;
+  margin: 1rem;
+  flex-basis: 35%;
+  padding: 1.5rem;
 }
 
 @media screen and (max-width: 1500px) { /*Rough*/
@@ -1239,8 +1261,7 @@
   }
 }
 
-.projectshowcase h2 {
-  font-size: 40px;
+.projectshowcase h1 {
   text-align: center;
   font-family: Verdana, sans-serif;
   color: white;
