@@ -59,7 +59,7 @@ export default function Home() {
     <br></br>
 
     <div className={styles.upnext}>
-      <center><Link href="/"><button className={styles.secondarybtndark} style={{width: "200px"}}>Next Course</button></Link></center>
+      <center><Link href="/fundcs"><button className={styles.secondarybtndark} style={{width: "200px"}}>Next Course</button></Link></center>
     </div>
 
     <br></br>

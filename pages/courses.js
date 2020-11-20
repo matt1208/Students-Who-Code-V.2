@@ -30,17 +30,17 @@ export default function Home() {
         <div className={styles.card}>
           <p className={styles.header4}>Fundamentals of Computer Science</p>
           <p className={styles.tag}>Coding</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/fundcs"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Intro to HTML</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/introhtml"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Intro to CSS</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/introcss"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Text and Images in Websites Part 1</p>
@@ -60,7 +60,7 @@ export default function Home() {
         <div className={styles.card}>
           <p className={styles.header4}>Intro to Programming</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/introprogramming"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
       </div>
 
