@@ -10,6 +10,7 @@ export default function Home() {
         <title>Students Who Code</title>
         <link rel="icon" href="/src/Logo1.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <ul className={styles.navbar}>
         <Link href="/"><img src="/src/Logo2.png" alt="Home Logo" height="75px" width="75px"></img></Link>
@@ -77,7 +78,10 @@ export default function Home() {
 
 
     <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   
        
     </div>

@@ -45,17 +45,17 @@ export default function Home() {
         <div className={styles.card}>
           <p className={styles.header4}>Text and Images in Websites Part 1</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/textimg1"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Text and Images in Websites Part 2</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/textimg2"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Creating a Multiple Page Website</p>
           <p className={styles.tag}>Web Dev</p>
-          <button className={styles.secondarybtn}>Start</button>
+          <Link href="/multiwebsite"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
         <div className={styles.card}>
           <p className={styles.header4}>Intro to Programming</p>
