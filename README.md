@@ -3,7 +3,7 @@ Students Who Code Website Files
 Computer Science Courses created for students by students.
 
 ## V.2 
-This is Version 2 of Students Who Code. Includes the website being transfers to Next.js, new homepage design, new auth experiencem and refreshed color scheme. 
+This is Version 2 of Students Who Code. Includes the website being transfers to Next.js, new homepage design, new auth experience and refreshed color scheme. 
 
 ## Courses 
 Courses will include how to use the code editor, Repl.it. Plus teaching students Web Development.
