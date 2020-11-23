@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Snow from 'resnow'
+import Navbar from '../components/nav'
 
 export default function Home() {
   return (
@@ -11,13 +11,7 @@ export default function Home() {
         <link rel="icon" href="/src/Logo1.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <ul className={styles.navbar}>
-          <Link href="/"><img src="/src/Logo2.png" alt="Home Logo" height="75px" width="75px" style={{ cursor: "pointer" }}></img></Link>
-        <div className={styles.rightnavarea}>
-          <li className={styles.rightnav}><Link href="/codingconnected">Coding Connected</Link></li>
-          <li className={styles.rightnav}><Link href="/courses">Courses</Link></li>
-        </div>
-      </ul>
+      <Navbar />
 
       <p className={styles.headerTitle}>Courses</p>
       

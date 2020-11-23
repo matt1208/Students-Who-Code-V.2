@@ -46,6 +46,22 @@
   background-color: #1F1F1F;
 }
 
+@media only screen and (max-width: 1000px) {
+  .card {
+    height: 350px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .grid {
+    display: block;
+  }
+  .card {
+    height: 100%;
+  }
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -1256,14 +1272,13 @@
   padding: 1.5rem;
 }
 
-@media screen and (max-width: 1500px) { /*Rough*/
+@media screen and (max-width: 1000px) { /*Rough*/
   .projectshowcaseside {
     display: none;
   }
 
   .projectshowcase {
-    max-width: 1000px;
-    width: 75%;
+    height: 355px;
     align-items: center;
     float: none;
   }
