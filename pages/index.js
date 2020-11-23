@@ -59,21 +59,21 @@ export default function Home() {
           <center><img src="src/Message2.png" alt="Connected Graphic" height="100px" width="100px"></img></center>
           <h2>Code Masters</h2>
           <p>Code Masters are high school coders who there to help you whenever you have a question or want feeback.</p>
-          <center><Link href="login.html" target="_blank"><button className={styles.secondarybtndark}>Connect</button></Link></center>
+          <center><Link href="https://airtable.com/shrIVz6b33Sjn6Iyf" target="_blank"><button className={styles.secondarybtndark}>Connect</button></Link></center>
           <br></br>
         </div>
         <div className={styles.connectedcolumn} data-aos="fade-down">
           <center><img src="src/Spotlight.png" alt="Spotlight" height="100px" width="100px"></img></center>
           <h2>Submit A Project</h2>
           <p>Login to submit your coding projects to be spotlighted or featured for its purpose or function!</p>
-          <center><Link href="login.html"><button className={styles.secondarybtndark}>Login</button></Link></center>
+          <center><Link href="/codingconnected"><button className={styles.secondarybtndark}>Submit</button></Link></center>
           <br></br>
         </div>
     </div>
 
     <div className={styles.footer}>
       <h2>Students Who Code</h2>
-      <h2><Link href="about.html">About</Link> |<Link href="contact.html">Contact Us</Link> | <Link href="signup.html">Sign Up</Link></h2>
+      <h2><Link href="/about">About</Link> |<Link href="contact.html">Contact Us</Link></h2>
     </div>
 
 

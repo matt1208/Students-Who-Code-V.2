@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className={styles.courselist}>
-            <p><b>In this course you will be coding an About Me page to learn more about HTML and using images in your website. To code along wiht the start create a new HTML/CSS/JS Repl, if you don't know how go to our <a href="replcourse.html">Intro to Repl.it</a> course.</b></p>
+            <p><b>In this course you will be coding an About Me page to learn more about HTML and using images in your website. To code along wiht the start create a new HTML/CSS/JS Repl, if you don't know how go to our <a href="/replcourse">Intro to Repl.it</a> course.</b></p>
             <p>1.Create a div with an id of "title".</p>
             <p>2. Add a header "About Me".</p>
             <p>3. Create an h2 header below the main header with your name.</p>

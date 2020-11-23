@@ -30,7 +30,7 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>Programming is the way through which we can tell the computer what tasks to perform. But how can we communicate with a computer? We, humans, communicate using different languages, such as English, Spanish, etc. Similarly, a ‘programming language’ is used to communicate with the computer. The rules for writing a valid code are referred to as syntax. There are so many programming languages in computer science. The basic difference between programming languages is <em>'syntax'</em>.</p>
       <p>I will introduce basic concepts of programming with simple snippets of code, all written in JavaScript. JavaScript is one of the most popular and beginner-friendly languages.</p>
-      <p><b style={{color: "#ed553b"}}>Coding Tip:</b> The best way to learn how to write code is to write code. Try yourself where mentioned. We will be using <Link href="https://repl.it/" target="_blank">Repl.it</Link> for practicing. Explore about Repl.it in this course, <Link href="replcourse.html" target="_blank">here</Link>.</p>
+      <p><b style={{color: "#ed553b"}}>Coding Tip:</b> The best way to learn how to write code is to write code. Try yourself where mentioned. We will be using <Link href="https://repl.it/" target="_blank">Repl.it</Link> for practicing. Explore about Repl.it in this course, <Link href="/replcourse" target="_blank">here</Link>.</p>
       <p>JavaScript is mainly used in web pages. So use the repl of “HTML/CSS/JS” for this course. We will edit only the script.js(obviously) file for learning JavaScript. Or simply you can fork this repl, <Link href="https://repl.it/@Giridharhackclu/Starter-js#script.js" target="_blank">here</Link>.</p>
     </div>
 

@@ -32,7 +32,7 @@ export default function Home() {
     </div>
 
     <div className={styles.courselist}>
-      <p>In this course you will finish the About Me website from <Link href="textimgcourse.html">Working with Text and Images Part 1</Link>. In this part of the project you will learn about lists and differnt font styles in HTML.</p>
+      <p>In this course you will finish the About Me website from <Link href="/textimg2">Working with Text and Images Part 1</Link>. In this part of the project you will learn about lists and differnt font styles in HTML.</p>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> There are two types of lists that can be created with HTML: Ordered lists <code>&lt;ol&gt;</code> and unordered lists <code>&lt;ul&gt;</code>. The main difference is ordered lists use numbers, and unordered lists use bullet points. Today we will be creating an unordered list.</p>
       <p>1. First create another div with an id named "describe"</p>
       <p>2. Create a subheader, h2, "Words that Describe Me"</p>

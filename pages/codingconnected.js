@@ -19,7 +19,14 @@ export default function Home() {
         </div>
       </ul>
 
-      <p className={styles.headerTitle}>Coding Connected</p>
+      <div className={styles.tightrow}>
+        <div className={styles.tightcolumn}>
+          <p className={styles.headerTitle}>Coding Connected</p>
+        </div>
+        <div className={styles.tightcolumn}>
+          <img src="/src/CC Header.png"></img>
+        </div>
+    </div>
     
       <center><p className={styles.header3} style={{ color: "white" }}>Project Showcase</p></center>
       <div className={styles.grid}>
@@ -31,6 +38,30 @@ export default function Home() {
           <div className={styles.projectshowcase}>
               <h2>Penty Desktop Assistant</h2>
           </div>
+
+      </div>
+      <br></br>
+      <center><Link href="/submitproject"><button className={styles.secondarybtndark} style={{width: "250px"}}>Submit A Project</button></Link></center>
+
+      <br></br>
+
+      <center><p className={styles.header3} style={{ color: "white" }}>Resources</p></center>
+
+      <div className={styles.grid}>
+        <div className={styles.card} style={{flexBasis: "30%", border: "none"}}>
+          <center><img src="/src/Message.png" height="150px" width="150px" alt="Code Masters"></img></center>
+          <center><p className={styles.header4} style={{color: "white"}}>Code Masters</p></center>
+          <center><p className={styles.normaltext}>Get help or advice by using the "Ask a Question" button in the corner.</p></center>
+        </div>
+        <div className={styles.card} style={{flexBasis: "30%", border: "none"}}>
+          <center><img src="/src/Message.png" height="150px" width="150px" alt="Code Masters"></img></center>
+          <center><p className={styles.header4} style={{color: "white"}}>Resource</p></center>
+        </div>
+        <div className={styles.card} style={{flexBasis: "30%", border: "none"}}>
+          <center><img src="/src/Editor.png" height="150px" width="200px" alt="Code Masters"></img></center>
+          <center><p className={styles.header4} style={{color: "white"}}>SWC Editior</p></center>
+          <center><p className={styles.normaltext}>Experiment and build new and exciting projects! It will be ready to use soon!</p></center>
+        </div>
       </div>
 
       

@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       <p>C. Depending on the type of hardware</p>
-      <button className={styles.secondarybtndark} style={{width: "200px;"}} onClick={() => { myFunction2();}}>Check Answer</button>
+      <button className={styles.secondarybtndark} style={{width: "250px;"}} onClick={() => { myFunction2();}}>Check Answer</button>
     </div>
 
     <br></br>
@@ -74,7 +74,7 @@ export default function Home() {
     <br></br>
 
     <div className={styles.upnext}>
-      <center><a href="introhtml.html"><button className={styles.secondarybtndark} style={{width: "200px;"}}>Next Course</button></a></center>
+      <center><a href="/introhtml"><button className={styles.secondarybtndark} style={{width: "200px;"}}>Next Course</button></a></center>
     </div>
 
     <br></br>

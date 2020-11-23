@@ -62,7 +62,7 @@ export default function Home() {
 
     <div className={styles.courselist}>
       <p>You are going to create your first website using HTML! The website will be very simple with just a few lines of text that you can customize and adding an image. Throughout the rest of the course you will be walked through the process step by step and getting useful information and tips.</p>
-      <p>To start off create a new <Link href="https://repl.it/" target="_blank">HTML/CSS/JS Repl</Link> or follow our How to Set Up Repl course. If you don't want to use Repl.it you can also open the <a href="code-editor.html" target="_blank">SWC Editor</a> and create your website!</p>
+      <p>To start off create a new <Link href="https://repl.it/" target="_blank">HTML/CSS/JS Repl</Link> or follow our How to Set Up Repl course.</p>
     </div>
 
     <br></br>
@@ -110,7 +110,7 @@ export default function Home() {
     <br></br>
 
     <div className={styles.upnext}>
-      <center><Link href="introcss.html"><button className={styles.secondarybtndark} style={{width:" 200px"}}>Next Course</button></Link></center>
+      <center><Link href="/introcss"><button className={styles.secondarybtndark} style={{width:" 200px"}}>Next Course</button></Link></center>
     </div>
 
     <br></br>

@@ -106,7 +106,7 @@ export default function Home() {
       <br></br>
 
       <div className={styles.upnext}>
-        <center><a href="textimgcourse.html"><button className={styles.secondarybtndark} style={{width: "200px"}}>Next Course</button></a></center>
+        <center><a href="/textimg1"><button className={styles.secondarybtndark} style={{width: "200px"}}>Next Course</button></a></center>
       </div>
 
       <br></br>
