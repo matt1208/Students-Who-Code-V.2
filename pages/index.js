@@ -7,6 +7,7 @@ import Navbar from '../components/nav'
 export default function Home() {
   return (
     <div className={styles.maincontainer}>
+      
       <Head>
         <title>Students Who Code</title>
         <link rel="icon" href="/src/Logo1.png" />
@@ -17,22 +18,21 @@ export default function Home() {
       <div className={styles.tightrow}>
         <div className={styles.tightcolumn}>
           <p className={styles.headerTitle}>Students Who Code</p>
-          <p className={styles.subtitle}>Computer science and coding courses created by students for students all for free.</p>
+          <p className={styles.subtitle}>Computer science and coding courses are created by students for students, all for free with no accounts.</p>
           <Link href="/courses"><button className={styles.headerbtn}>Get Started</button></Link>
         </div>
         <div className={styles.tightcolumn}>
           <img src="/src/Header.png" height="550px" width="600px"></img>
         </div>
       </div>
-
       <br></br>
 
       <div className={styles.mainpoints}>
-        <div className={styles.mainpointscolumn} style={{ marginRight: "10px"}}>
+        <div className={styles.mainpointscolumn}>
           <center><img src="src/BinaryIcon.png" alt="Code Icon" height="120px" width="120px"></img></center>
           <p>Students changing the world with code, due to their passion for change and computer science. We have courses for students interested in Web Development with more to come!</p>
         </div>
-        <div className={styles.mainpointscolumn} style={{ marginRight: "10px"}}>
+        <div className={styles.mainpointscolumn}>
           <center><img src="src/MoneyIcon.png" alt="Money Icon" height="120px" width="120px"></img></center>
           <p>Students Who Code is free for all users. We believe that no students should have to pay for computer science education, and miss there chance to create the next world changing program! </p>
         </div>
@@ -43,10 +43,10 @@ export default function Home() {
       </div>
 
       <br></br>
-
+     {/* Snow here */}
       <div>
         <p className={styles.header3} style={{ color: "white", textAlign: "center" }}>Coding Connected</p>
-        <p className={styles.normaltext} style={{ textAlign: "center", paddingLeft: "44px", paddingRight: "44px", fontWeight: "bold" }}>Our platform to help students grow and learn about computer science. Students Who Code wants all users and students to take part in Coding Connected.</p>
+        <p className={styles.normaltext} style={{ textAlign: "center", paddingLeft: "44px", paddingRight: "44px", fontWeight: "bold" }}>Our platform to help students grow and learn about computer science. Students Who Code wants all students to take part in Coding Connected.</p>
       </div>
 
       <div className={styles.connecetedrow}>
@@ -65,7 +65,6 @@ export default function Home() {
             <br></br>
           </div>
       </div>
-
       <div className={styles.footer}>
         <h2>Students Who Code</h2>
         <h2><Link href="/about">About</Link> |<Link href="contact.html">Contact Us</Link></h2>

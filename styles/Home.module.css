@@ -13,8 +13,8 @@
 
 @media only screen and (max-width: 1000px) {
   .maincontainer {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     
   }
 }
@@ -90,24 +90,21 @@
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  .rightnavarea {
+    display: block;
+  }
+  .rightnav {
+    float: left ;
+  }
+}
+
 /*Nav*/
 .toggle{
   display: none;
 }
 
 @media (max-width: 800px) {
-/*
-  #rightnav {
-    padding-left: 0px;
-  }
-
-  #rightnavarea {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-*/
-
   .toggle {
     display: inline-flex;
     float: right;
@@ -256,11 +253,21 @@
   margin-right: 44px;
 }
 
+@media screen and (max-width: 1200px) { /*Rough*/
+  .mainpointscolumn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 430px;
+  }
+}
+
 @media screen and (max-width: 1000px) { /*Rough*/
   .mainpointscolumn {
     width: 100%;
     margin-bottom: 20px;
     height: 300px;
+    margin-left: 0px;
+  margin-right: 0px;
   }
 }
 
@@ -268,7 +275,7 @@
   .mainpointscolumn {
     width: 100%;
     margin-bottom: 20px;
-    height: 350px;
+    height: 100%;
   }
 }
 /*End Main Points*/
@@ -302,15 +309,23 @@
 @media screen and (max-width: 1000px) { /*Rough*/
   .headerconnected h1{
     margin-left: 0px;
-    line-height: 40px;
+    line-height: 45px;
   }
 
   .connectedcolumn {
     width: 100%;
     border-left: none;
     border-right: none;
+    margin-left: 0px;
+    margin-left: 0px;
+    height: 100%;
+  }
+
+  .connectedcolumn h2{
+    line-height: 40px;
   }
 }
+
 /*End of Coding Connected*/
 /*Footer*/
 .footer {
@@ -1614,6 +1629,12 @@
 }
 
 @media screen and (max-width: 1000px) { /*Rough*/
+  .tightrow {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .tightcolumn {
     width: 100%;
   }
@@ -1648,6 +1669,7 @@
 @media screen and (max-width: 1000px) { /*Rough*/
   .headerTitle {
     text-align: center;
+    font-size: 60px;
   }
 
   .subtitle {

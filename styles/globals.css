@@ -37,12 +37,31 @@ ul a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) { /*Rough*/
+@media screen and (max-width: 1200px) { /*Rough*/
+
+  img[src="/src/Header.png"] {
+    height: 500px;
+    width: 515px;
+  }
+
+}
+
+@media screen and (max-width: 800px) { /*Rough*/
 
   img[src="LogoHeader.png"] {
     height: 200px;
   }
 
+  img[src="/src/Header.png"] {
+    height: 350px;
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 400px) { /*Rough*/
+  img[src="/src/Header.png"] {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1000px) { /*Rough*/
@@ -68,54 +87,54 @@ ul a {
 
   
 @media screen and (max-width: 800px) { /*Rough*/
-  img[src="AboutMe2.png"] {
+  img[src="/src/AboutMe2.png"] {
     width: 400px;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 800px) { /*Rough*/
-  img[src="AboutMe5.png"] {
+  img[src="/src/AboutMe5.png"] {
     width: 400px;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 800px) { /*Rough*/
-  img[src="AboutMe3.png"] {
+  img[src="/src/AboutMe3.png"] {
     width: 350px;
   }
 }
 
 @media screen and (max-width: 800px) { /*Rough*/
-  img[src="AboutMe4.png"] {
+  img[src="/src/AboutMe4.png"] {
     width: 350px;
   }
 }
 
 /*Not sure of*/
 @media screen and (max-width: 400px) { /*Rough*/
-  img[src="AboutMe2.png"] {
+  img[src="/src/AboutMe2.png"] {
     width: 300px;
     height: 150px;
   }
 }
 
 @media screen and (max-width: 400px) { /*Rough*/
-  img[src="AboutMe5.png"] {
+  img[src="/src/AboutMe5.png"] {
     width: 350px;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 400px) { /*Rough*/
-  img[src="AboutMe3.png"] {
+  img[src="/src/AboutMe3.png"] {
     width: 250px;
   }
 }
 
 @media screen and (max-width: 400px) { /*Rough*/
-  img[src="AboutMe4.png"] {
+  img[src="/src/AboutMe4.png"] {
     width: 250px;
   }
 }
@@ -130,7 +149,7 @@ code {
 }
 
 @media screen and (max-width: 800px) { /*Rough*/
-  video[src="UploadFile.mov"] {
+  video[src="/src/UploadFile.mov"] {
     width: 400px;
     height: 400px;
   }
@@ -138,4 +157,12 @@ code {
 
 p {
   font-family: Verdana, sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
