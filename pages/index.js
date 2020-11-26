@@ -7,7 +7,7 @@ import Navbar from '../components/nav'
 export default function Home() {
   return (
     <div className={styles.maincontainer}>
-      
+      {/* Snow here */}
       <Head>
         <title>Students Who Code</title>
         <link rel="icon" href="/src/Logo1.png" />
@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className={styles.footer}>
         <h2>Students Who Code</h2>
-        <h2><Link href="/about">About</Link> |<Link href="contact.html">Contact Us</Link></h2>
+        <h2><Link href="/about">About</Link> |<Link href="/contact">Contact Us</Link></h2>
       </div>
 
 

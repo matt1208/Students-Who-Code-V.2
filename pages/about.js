@@ -29,9 +29,17 @@ export default function Home() {
     </div>
 
     <div className={styles.courselist}>
-      <p>Students Who Code purpose is to allow students to learn about computer science and different coding languages for free, while providing quality courses. Once students sign up, they can access all of the full courses free of charge with no payment required whenever using the site. Students whose schools don't offer computer science education, can't afford or don't want to pay for some premium online courses, or just want to learn how to code can all use Students Who Code. </p>
+      <p>Students Who Code purpose is to allow students to learn about computer science and different coding languages for free, while providing quality courses. Students whose schools don't offer computer science education, can't afford or don't want to pay for some premium online courses, or just want to learn how to code can all use Students Who Code. </p>
       <p>The courses are created to give students a project to work on while learning. For example as a student goes through the "Intro to HTML" course they will be coding their very website, and will have a finished project ready to share once the course is over. </p>
       <p>Coding Connected is a way for students to be connected with students that are also coding. They can submit and see other students projects, talk to experienced high school coders to get answers or feedback, and stay connected with the Coding Connected community. </p>
+    </div>
+
+    <div className={styles.subheader}>
+      <p>Where did Sign In and Sign Up go?</p>
+    </div>
+
+    <div className={styles.courselist}>
+      <p>Students wanting to learn will no longer have to sign up or login. When trying to make the user experience better it was realized that making people sign up was another obstacle for students wanting to learn. Now, no one needs to input personal information, be required a have an email, or remember a password. Anyone with an old member account should not worry as the old database will be deleted shortly after the deployment of V.2</p>
     </div>
 
     <div className={styles.subheader}>
