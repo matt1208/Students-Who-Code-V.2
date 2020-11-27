@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className={styles.footer}>
         <h2>Students Who Code</h2>
-        <h2><Link href="/about">About</Link> |<Link href="/contact">Contact Us</Link></h2>
+        <h2><Link href="/about">About</Link> | <Link href="/contact">Contact Us</Link></h2>
       </div>
 
 
