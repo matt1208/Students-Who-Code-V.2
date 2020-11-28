@@ -192,6 +192,12 @@
   border-style: none;
 }
 
+@media screen and (max-width: 800px) { /*Rough*/
+  .headerbtn {
+    width: 220px;
+  }
+}
+
 .headerbtn a {
   color: white;
   text-decoration: none;
