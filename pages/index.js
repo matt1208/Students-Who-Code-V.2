@@ -77,7 +77,6 @@ export default function Home() {
         AOS.init();
       </script>
   
-       
     </div>
   )
 }
