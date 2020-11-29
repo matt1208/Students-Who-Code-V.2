@@ -359,7 +359,7 @@
 
 @media screen and (max-width: 1000px) { /*Rough*/
   .footer{
-    margin-top: 600px;
+    margin-top: 0px;
     padding-top: 20px;
   }
 }
@@ -1296,6 +1296,14 @@
   }
 
   .projectshowcase {
+    height: 250px;
+    align-items: center;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 900px) { /*Rough*/
+  .projectshowcase {
     height: 355px;
     align-items: center;
     float: none;
@@ -1706,6 +1714,12 @@
   font-family: Verdana, sans-serif;
   color: #e7dfc6;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) { /*Rough*/
+ .header4 {
+   font-size: 25px;
+ }
 }
 
 .normaltext {
