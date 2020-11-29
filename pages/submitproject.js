@@ -24,7 +24,7 @@ export default function Home() {
             <p><b>Show Off Your Work</b></p>
             <br></br>
         </div>
-        <div className={styles.submitcolumn}>
+        <div className={styles.submitcolumn1}>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrZ2LOjrop4zfTi7?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="525px" style={{backgroundColor: "transparent;", paddingLeft: "10px;", paddingRight: "10px;", paddingTop: "10px;", borderRadius: "20px;"}}></iframe>
             <br></br>
         </div>

@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Snow from 'resnow'
 import Navbar from '../components/nav'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -65,10 +66,7 @@ export default function Home() {
             <br></br>
           </div>
       </div>
-      <div className={styles.footer}>
-        <h2>Students Who Code</h2>
-        <h2><Link href="/about">About</Link> | <Link href="/contact">Contact Us</Link></h2>
-      </div>
+      <Footer />
 
 
       <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>

@@ -1282,7 +1282,7 @@
 
 .projectshowcase {
   background-color:#ed553b;
-  height: 300px;
+  height: 320px;
   border-radius: 20px;
   text-align: center;
   margin: 1rem;
@@ -1290,21 +1290,17 @@
   padding: 1.5rem;
 }
 
-@media screen and (max-width: 1000px) { /*Rough*/
-  .projectshowcaseside {
-    display: none;
-  }
-
+@media screen and (max-width: 1200px) { /*Rough*/
   .projectshowcase {
-    height: 250px;
+    height: 350px;
     align-items: center;
     float: none;
   }
 }
 
-@media screen and (min-width: 900px) { /*Rough*/
+@media screen and (max-width: 900px) { /*Rough*/
   .projectshowcase {
-    height: 355px;
+    height: 100%;
     align-items: center;
     float: none;
   }
