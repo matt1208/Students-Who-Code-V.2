@@ -35,7 +35,7 @@ export default function Home() {
       <p>1. Go to Repl.it</p>
       <p>2. Click on the button that says "Start Coding"</p>
       <p>3. Enter "HTML", Select HTML/CSS/JavaScript</p>
-      <img src="/src/courserepl.png" height="250px" style={{marginLeft: "50px"}}></img>
+      <img src="/src/ReplCourse.png" height="250px" style={{marginLeft: "50px"}}></img>
       <p>4. Create Repl</p>
     </div>
 
