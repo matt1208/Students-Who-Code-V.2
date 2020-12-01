@@ -51,7 +51,7 @@ export default function Home() {
       <p><b>Identifier</b> is a sequence of characters that can be used to identify a variable, a function, an object. They cannot contain any special characters except ‘$’ and ‘_’.</p>
       <p><b style={{color: "#ed553b"}}>Note:</b> There are some reserved words in every programming language called ‘keywords’. You should not use them as identifiers. Check keywords in JavaScript <Link href="https://www.w3schools.com/js/js_reserved.asp" target="_blank">here</Link>.</p>
       <p><b>Comments</b> are lines of code that JavaScript(a programming language) will intentionally ignore. Code after a double slash //, or between /* and */, is treated as a comment.</p>
-      <img src="src/intropro1.png" alt="Function Code Picture"></img>
+      <img src="/src/intropro1.png" alt="Function Code Picture"></img>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.</p>
     </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
 
     <div className={styles.courselist}>
       <p>Let’s use JavaScript to print “Hello World!” to the console. The console is part of the web browser that allows you to run JavaScript code. The following code snippet is used to output.</p>
-      <img src="src/intropro2.png" alt="Output Code Picture"></img><br></br>
+      <img src="/src/intropro2.png" alt="Output Code Picture"></img><br></br>
       <Link href="https://repl.it/@Giridharhackclu/Input#script.js" target="_blank">Try it yourself</Link>
       <p><b>Practice:</b> Try to output your name or some other text on the console.</p>
     </div>
@@ -76,7 +76,7 @@ export default function Home() {
 
     <div className={styles.courselist}>
       <p>Input is the information received from the user. The console asks the user to input something through a prompt box. The `prompt()` function is used to input some data.</p>
-      <img src="src/intropro3.png" alt="Input Code Picture"></img><br></br>
+      <img src="/src/intropro3.png" alt="Input Code Picture"></img><br></br>
       <Link href="https://repl.it/@Giridharhackclu/Input#script.js" target="_blank">Try it yourself</Link>
       <p><b>Practice:</b> Challenge yourself and try to get different inputs from the user.</p>
     </div>
@@ -90,7 +90,7 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>Variables allow computers to store and manipulate data in a dynamic fashion. That means their value can be changed throughout the code.</p>
       <p>In JavaScript, we use the `var` keyword to declare variables. `=` is used to assign value to the variable. Identifiers are used for naming variables.</p>
-      <img src="src/intropro4.png" alt="Variables Code Picture"></img><br></br>
+      <img src="/src/intropro4.png" alt="Variables Code Picture"></img><br></br>
       <Link href="https://repl.it/@Giridharhackclu/Variables#script.js" target="_blank">Try it yourself</Link>
       <p><b>Practice:</b> Try to get input from the user and store it in a variable.</p>
       <p><b style={{color: "#ed553b"}}>Note:</b> Just like in mathematics you can also add constants in your JavaScript code. But the value of constant cannot be changed. You can declare constants using the `const` keyword.</p>
@@ -106,7 +106,7 @@ export default function Home() {
       <p>In computer science, data is anything meaningful to the computer. Data can be of any type. JavaScript provides different data types which are ‘undefined’, null, boolean, string, number, and object.</p>
       <p>You can use the JavaScript `typeof` operator to find the type of a JavaScript variable.</p>
       <p>The `typeof` operator returns the type of a variable or an expression.</p>
-      <img src="src/intropro5.png" alt="Data Types Code Picture"></img>
+      <img src="/src/intropro5.png" alt="Data Types Code Picture"></img>
       <p><Link href="https://repl.it/@Giridharhackclu/Data-Types#script.js" target="_blank">Try it yourself</Link></p>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> JavaScript has dynamic types. This means that the same variable can be used to hold different data types.</p>
       <p><b>Practice:</b> Check the dynamic nature of JavaScript by changing the above code.</p>
@@ -141,12 +141,12 @@ export default function Home() {
       <p>When you write code, you want to perform different actions based on different conditions. You can do this by using <b>conditional statements</b>. The conditional checks the expression you pass to it for the true or false value. We can use `if` or `if-else` statements as conditionals.</p>
       <p>You may notice the curly braces are used. That is called a block, and it is used to group a list of different statements. </p>
       <p>This is how `if` statements work:</p>
-      <img src="src/intropro6.png" alt="If Code Picture"></img>
+      <img src="/src/intropro6.png" alt="If Code Picture"></img>
       <p>If the condition is true, the code in the block gets executed.</p>
       <p>You attach a statement that is going to be executed if the `if condition` is false use `else` statement.</p>
-      <img src="src/intropro7.png" alt="If Else Code Picture"></img>
+      <img src="/src/intropro7.png" alt="If Else Code Picture"></img>
       <p>Since `else` accepts a statement, you can nest another if/else statement inside it.</p>
-      <img src="src/intropro8.png" alt="If Else If Code Picture"></img>
+      <img src="/src/intropro8.png" alt="If Else If Code Picture"></img>
       <p><b>Practice:</b> Write a program to check whether the input is positive, negative or zero. Check your solution <Link href="https://repl.it/@Giridharhackclu/Conditionals#script.js" target="_blank">here</Link>.</p>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b>There is another way to implement conditional check using ? operator: a `&gt;` b ? console.log(a) : console.log(b); // if a `&gt;` b, outputs ‘a’ else outputs ‘b’.</p>
     </div>
@@ -160,10 +160,10 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>Repeating a set of actions until a certain condition fails -- in other words, repeating only while the condition holds -- is the job of loops in programming. There are different forms of loops, but all satisfy 0this basic behaviour. </p>
       <p><b>While and Do-while</b> loop repeats through a block of code, as long as a specified condition is true.</p>
-      <img src="src/intropro9.png" alt="While Do Code Picture"></img>
+      <img src="/src/intropro9.png" alt="While Do Code Picture"></img>
       <p>The practical difference between <b>while</b> and <b>do-while</b> loops is, if the condition is initially false, a while loop will never run, but a do..while loop will run just the first time.</p>
       <p><b>For loop</b> is most commonly used for creating loops.</p>
-      <img src="src/intropro10.png" alt="For Code Picture"></img>
+      <img src="/src/intropro10.png" alt="For Code Picture"></img>
       <p>statement-1 is executed before the loop starts.</p>
       <p>statement-2 defines the condition for running the loop.</p>
       <p>statement-3 is executed each time after the loop has been executed.</p>
@@ -180,10 +180,10 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>A function is a block of code that can be reusable.</p>
       <p>Here's an example of a function:</p>
-      <img src="src/intropro11.png" alt="Function Code Picture"></img>
+      <img src="/src/intropro11.png" alt="Function Code Picture"></img>
       <p>You can call or invoke this function by using its name followed by parentheses, like this: `functionName();`. All of the code between the curly braces will be executed every time the function is called.</p>
       <p>Functions can optionally take arguments (or parameters), values you pass in. And they can also optionally return a value. </p>
-      <img src="src/intropro12.png" alt="Function Output Code Picture"></img>
+      <img src="/src/intropro12.png" alt="Function Output Code Picture"></img>
       <p>There are so many built-in functions in every programming language. The output function `console.log()`, input function `prompt()`, `alert()` are also functions.</p>
       <p><b>Practice:</b> Create a function that accepts two arguments, multiplies them, and prints the new value on the console. Check your solution <Link href="https://repl.it/@Giridharhackclu/Functions#script.js" target="_blank">here</Link>.</p>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> The <b>return</b> statement is used to return a value from the function. The function stops executing code after the return statement.</p>

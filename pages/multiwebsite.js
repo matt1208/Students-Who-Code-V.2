@@ -68,7 +68,7 @@ export default function Home() {
       </code></p>
       <p>The pages are linked using the <code>a</code> tags that indicate the website that the text is a link. The <code>href</code> attribute tells the website where to go weather being a file, such as the blog page, or any other type of link.</p>
       <br></br>
-      <img src="src/MultiPage1.png" alt="Code"></img>
+      <img src="/src/MultiPage1.png" alt="Code"></img>
       <p>2. Run your project to see the navigation links.</p>
       <p>3. After adding this code in the index page we will also want the navigation bar on the blog so we can move back and forth between thet two pages. To do this just copy and paste the code you just wrote into the blog.html file.</p>
       <p>4. As of right now the nav bar is aligned on the left and stacked vertically. To get a normal looking website navigation, we are going to add some CSS code, in the style.css file, to customize the look of the navigation.</p>
@@ -78,7 +78,7 @@ export default function Home() {
         <span>{"}"}</span>
       </code>
       <p>5. Run to see the new navigation.</p>
-      <img src="src/MultiPage2.png" alt="Code"></img>
+      <img src="/src/MultiPage2.png" alt="Code"></img>
     </div>
 
     <br></br>
@@ -92,7 +92,7 @@ export default function Home() {
       <p>1. Add a <code>&lt;div&gt;</code> with an id of header. This will let us seprate the header of the blog from the actaully blog entries.</p>
       <p>2. Create a title for the blog using an <code>&lt;h1&gt;</code> tag.</p>
       <p>3. Run the code to see the new header.</p>
-      <img src="src/MultiPage3.png" alt="Code"></img>
+      <img src="/src/MultiPage3.png" alt="Code"></img>
       <p>4. Add another <code>&lt;div&gt;</code> with a class of "blogentry". We are using a class instead of an id because we will reuse the same div for another entries.</p>
       <p>5. We want the date to be before the entry so users know more information about what you are writing. To do this add the full date in an <code>&lt;h2&gt;</code> tag, so it is smaller then the page header</p>
       <p>6. Now you are going to write an entry about whatever you want!</p>
@@ -101,7 +101,7 @@ export default function Home() {
         &nbsp;<span>&lt;p&gt;This is a sample blog entry. Write whatever you want!&lt;/p&gt;</span><br></br>
         <span>&lt;/div&gt;</span>
       </code></p>
-    <img src="src/MultiPage4.png" alt="Code"></img>
+    <img src="/src/MultiPage4.png" alt="Code"></img>
     </div>
 
     <br></br>
@@ -113,7 +113,7 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>You have learned the basics of how to build your page! Now it is time to add custom CSS, add more entries, and finish your home page! The possiblites are endless, below is an example of a custom navigation and home page, all the code for it is in the Final Code link at the top of the page.</p>
       <p>Some things to change include: <code>background-color</code>, <code>font-color</code>, <code>text-align</code>, <code>font-size</code>, <code>font-family</code>, and <code>font-weight</code>.</p>
-      <img src="src/MultiPage5.png" alt="Code"></img>
+      <img src="/src/MultiPage5.png" alt="Code"></img>
     </div>
 
     <br></br>

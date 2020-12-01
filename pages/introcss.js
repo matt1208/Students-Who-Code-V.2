@@ -69,7 +69,7 @@ export default function Home() {
       <p><code>background-color: #ffb197; </code></p>
       <p><code>{"}"} </code></p>
       <p>3. Run your program to see what you created and notice that the whole page has a new background color due to the body's background color being changed. </p>
-      <img src="src/IntroCSS1.png" height="300px" width="300px" alt="Code"></img>
+      <img src="/src/IntroCSS1.png" height="300px" width="300px" alt="Code"></img>
       <p>4. Now that the background color has been changed we should probaly change the font color so it is easier for people to read and see, so to change that we are going to style the "hello" div.</p>
       <p><code>{"#hello {"}</code></p>
       <p><code>color: white; </code></p>
@@ -83,7 +83,7 @@ export default function Home() {
         {'\u00A0'}font-weight: bold;<br></br>
         {"}"}</code></p>
       <p>5. Add these other styling options to customize the text, and then run your the program to see how the text changes! </p>
-      <img src="src/IntroCSS2.png" height="300px"  alt="Code"></img>
+      <img src="/src/IntroCSS2.png" height="300px"  alt="Code"></img>
     </div>
 
     <br></br>
@@ -100,7 +100,7 @@ export default function Home() {
         <p>1. To style the image we are going to move the margin of the picture by 20%, so that way the image is more in line with the text.</p>
         <p><code>margin-left: 20%;</code></p>
         <p>2. Run your project to see the final product! If it does not look like the project below then check the final code at the top of the page.</p>
-        <img src="src/IntroCSS3.png" height="300px"  alt="Code"></img>
+        <img src="/src/IntroCSS3.png" height="300px"  alt="Code"></img>
       </div>
 
       <br></br>
