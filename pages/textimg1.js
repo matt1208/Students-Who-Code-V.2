@@ -52,7 +52,7 @@ export default function Home() {
                 </code></p>
             </div>
             <br></br>
-            <img src="/src/AboutMe1.png" alt="Code"></img>
+            <img src="/src/AboutMe1.PNG" alt="Code"></img>
         </div>
 
         <br></br>
@@ -68,7 +68,7 @@ export default function Home() {
             <p>2. Create a Bio header, using a h2 tag. Using an  h2 tag will help the user identify a new section.</p>
             <p>3. Add a couple sentences that describes who you are and what you would put in your bio.</p>
             <p>4. Run your About Me page to see how it is looking.</p>
-            <img src="/src/AboutMe2.png" alt="Code"></img>
+            <img src="/src/AboutMe2.PNG" alt="Code"></img>
             <p>5. Now we are going to add an image to make the website look better. Download the image in the projcet links at the top or use your own image.</p>
             <p>6. Upload the iamge to Repl.it | If you do not remeber how refer back to <Link href="/introhtml">Intro to HTML</Link></p>
             <p><b style={{color: "#ed553b"}}>Coding Tip:</b> To get the image to align next to the text, put the image inside of the <code>&lt;p&gt;&lt;/p&gt;</code> tags. Doing this will align the image right next to the text because the iamge is acting like text due to being inside of the paragraph tags.</p>
@@ -79,7 +79,7 @@ export default function Home() {
             <p><b style={{color: "#ed553b"}}>Coding Tip:</b> The <code>alt=""</code> attribute is imporant to use when you display an image! It is a short description of the image. If someone's computer can not load the iamge or there is an error with the website the computer can display the <code>alt</code> text where the image would go, so the user can understand what would have been there. Using the <code>alt</code> attribute also helps improve assecibility of your website, in case someone is using a screen reader.</p>
             <p>9. Give the image an <code>alt</code> tag.</p>
             <p>10. Close your div and run!</p>
-            <img src="/src/AboutMe5.png" alt="Code"></img>
+            <img src="/src/AboutMe5.PNG" alt="Code"></img>
             <p>You know have part of your About Me website complete, and in the next course you will learn more about what you can do in HTML. In this course you learned about adding different headers, algining the text and images together, and finally sizing and making your images accessible.</p>
         </div>
 

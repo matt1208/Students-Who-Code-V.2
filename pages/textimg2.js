@@ -53,7 +53,7 @@ export default function Home() {
         <span>&lt;/div&gt;</span>
       </code>
       <p>7. Run your project to see the list you created, notice how each new <code>li</code> tag is a new bullet point.</p>
-      <img src="/src/AboutMe3.png" style={{marginLeft: "44px"}} alt="Code"></img>
+      <img src="/src/AboutMe3.PNG" style={{marginLeft: "44px"}} alt="Code"></img>
     </div>
 
     <br></br>
@@ -68,7 +68,7 @@ export default function Home() {
       <p>1. Choose one word to bold that you think is the word that best descirbes you.</p>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> To italicize use the <code>&lt;em&gt;</code> tag before and after the word(s) you want to be italicized.</p>
       <p>2. Choose the word that most people would say when asked to descibe you. Run your program to see your final About Me website!</p>
-      <img src="/src/AboutMe4.png" style={{marginLeft: "44px"}} alt="Code"></img>
+      <img src="/src/AboutMe4.PNG" style={{marginLeft: "44px"}} alt="Code"></img>
     </div>
 
     <br></br>

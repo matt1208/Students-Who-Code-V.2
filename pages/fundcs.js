@@ -56,7 +56,7 @@ export default function Home() {
     <div className={styles.courselist}>
       <p>Abstractions are the essential features without the background details or information. Abstractions are helpful as they reduce the complexity of the program.</p>
       <p>They also help make efficeient design and implementation of software.</p>
-      <img src="/src/AbstractionPic.png" alt="Block code example of abstraction"></img>
+      <img src="/src/AbstractionPic.PNG" alt="Block code example of abstraction"></img>
       <p>The abstraction example above is from a block code programming langauge, Snap! This one block is able to tell the computer how many steps to move the character or sprite. The programmer does not have to specifically explain how to move, because of the abstraction the computer knows what to do in just 1 line of code.</p>
     </div>
 

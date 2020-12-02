@@ -78,12 +78,12 @@ export default function Home() {
       <p><code>&lt;h1&gt;Hello World&lt;/h1&gt; </code></p>
       <p>Using an h1 tag is the largest of the 6 headers.</p>
       <p>3. Run your program to see what you created. </p>
-      <img src="/src/introhtml1.png" alt="Code"></img>
+      <img src="/src/introhtml1.PNG" alt="Code"></img>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> h1-h6 tags have preassigned font sizes, but using CSS you can customize the headers just like any other text. </p>
       <p>4. Now we are going to add some text using the <code>p</code> tags. Creating a message saying hello to yourself!</p>
       <p><code>&lt;p&gt;Hello Matt&lt;/p&gt; </code></p>
       <p>5. Run your program again to see what you created. Notice the differnce between the header and the normal paragraph text. </p>
-      <img src="/src/introhtml2.png" alt="Code"></img>
+      <img src="/src/introhtml2.PNG" alt="Code"></img>
       <p><b style={{color: "#ed553b"}}>Coding Tip:</b> Most tags must by closed or ended. For example to add text you use <code>&lt;p&gt;</code> amd then write you text. When you want to end your sentence or text area, use the same opening but add a backslash <code>&lt;/p&gt;</code>. Closing tags requires a backslash!</p>
       <p>6. Now close the div that you created earlier in the lesson. </p>
       <p><code>&lt;/div&gt;</code></p>
@@ -104,7 +104,7 @@ export default function Home() {
       <p><code>&lt;img src="IntroGraphic.png"&gt; </code></p>
       <p>Or inside the quotes include the image link address.</p>
       <p>4. Run your program again to see your first website! Congratialation you have built your first website and learned some of the basics of HTML, but there is still so much for you to learn so continue to learn! </p>
-      <img src="/src/introhtml3.png" height="300px" width="300px" alt="Code"></img>
+      <img src="/src/introhtml3.PNG" height="300px" width="300px" alt="Code"></img>
     </div>
 
     <br></br>
