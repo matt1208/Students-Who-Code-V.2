@@ -64,6 +64,9 @@ export default function Home() {
 
     <br></br>
 
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+
 </div>
 
     )

@@ -114,7 +114,8 @@ export default function Home() {
 
 
       <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>
-
+      <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
   
        
      </div>
