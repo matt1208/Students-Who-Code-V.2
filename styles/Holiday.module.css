@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.content{
+  margin-top: 2%;
+  width: 70%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contentmission{
+  margin-top: 2%;
+  width: 70%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.rightnavarea {
+  display: inline;
+}
+
+.rightnav {
+  float: right;
+  padding-right: 44px;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .rightnavarea {
+    display: block;
+  }
+  .rightnav {
+    float: left ;
+    padding-right:50%;
+  }
+}
+
+.title{
+  font-family: "Open Sans", sans-serif;
+  font-size: 4.5em;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.01),
+               2px 2px 0 rgba(0,0,0,0.01),
+               3px 3px 0 rgba(0,0,0,0.01),
+               4px 4px 0 rgba(0,0,0,0.01),
+               5px 5px 0 rgba(0,0,0,0.01),
+               6px 6px 0 rgba(0,0,0,0.01),
+               7px 7px 0 rgba(0,0,0,0.01),
+               8px 8px 0 rgba(0,0,0,0.01),
+               9px 9px 0 rgba(0,0,0,0.01),
+               10px 10px 0 rgba(0,0,0,0.01),
+               11px 11px 0 rgba(0,0,0,0.01),
+               12px 12px 0 rgba(0,0,0,0.01),
+               13px 13px 0 rgba(0,0,0,0.01),
+               14px 14px 0 rgba(0,0,0,0.01),
+               15px 15px 0 rgba(0,0,0,0.01),
+               16px 16px 0 rgba(0,0,0,0.01),
+               17px 17px 0 rgba(0,0,0,0.01),
+               18px 18px 0 rgba(0,0,0,0.01),
+               19px 19px 0 rgba(0,0,0,0.01),
+               20px 20px 0 rgba(0,0,0,0.01);
+}
+.snowman{
+  height: 55vh;
+  position: absolute;
+  right: 3%;
+  bottom: 28%;
+}
+.btn{
+  width: 20vw;
+  font-size: 1.3em;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #206391;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.btn:hover{
+  transform: scale(1.03);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.01),
+              2px 2px 0 rgba(0,0,0,0.01),
+              3px 3px 0 rgba(0,0,0,0.01),
+              4px 4px 0 rgba(0,0,0,0.01),
+              5px 5px 0 rgba(0,0,0,0.01),
+              6px 6px 0 rgba(0,0,0,0.01),
+              7px 7px 0 rgba(0,0,0,0.01),
+              8px 8px 0 rgba(0,0,0,0.01),
+              9px 9px 0 rgba(0,0,0,0.01),
+              10px 10px 0 rgba(0,0,0,0.01),
+              11px 11px 0 rgba(0,0,0,0.01),
+              12px 12px 0 rgba(0,0,0,0.01),
+              13px 13px 0 rgba(0,0,0,0.01),
+              14px 14px 0 rgba(0,0,0,0.01),
+              15px 15px 0 rgba(0,0,0,0.01),
+              16px 16px 0 rgba(0,0,0,0.01),
+              17px 17px 0 rgba(0,0,0,0.01),
+              18px 18px 0 rgba(0,0,0,0.01),
+              19px 19px 0 rgba(0,0,0,0.01),
+              20px 20px 0 rgba(0,0,0,0.01);
+}
+.btn:active, .btn:focus{
+  border: none;
+  outline: none;
+}
+.btn:active{
+  background-color: #c0c0c7;
+}
+
+.hilight{
+  color: #ED553B;
+}
+.text{
+  font-size: 18px;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+.webpage{
+  height: 35vh;
+  position: absolute;
+  right: 3%;
+  bottom: 18%;
+}
+
+.heading{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.normaltext {
+  font-size: 20px;
+  color: #e7dfc6;
+  font-family: Verdana, sans-serif;
+  padding-right: 20%;
+}
+.normaltextmission {
+  font-size: 20px;
+  color: #206391;
+  font-family: Verdana, sans-serif;
+  padding-right: 50%;
+}
+
+@media screen and (max-width: 1400px){
+  .snowman{
+    height: 50vh;
+    bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .snowman{
+    height: 45vh;
+    right: 10%;
+    bottom: 35%;
+  }
+  .webpage{
+    display: none;
+  }
+  .normaltextmission {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .content{
+    width: 100%;
+  }
+  .contentmission{
+    width: 100%;
+    padding: 0px;
+  }
+  .snowman{
+    display:none;
+  }
+  .title{
+    font-size: 3.5em;
+  } 
+  .heading{
+    font-size: 18px;
+  }
+  .webpage{
+    display: none;
+  }
+  .btn{
+    width: 40vw;
+  }
+  
+}
+
+@media screen and (max-width: 480px){
+  .text{
+    font-size: 16px;
+  }
+    .title{
+    font-size: 2.5em;
+  } 
+  .btn{
+    font-size: 16px;
+    width: 40vw;
+  }
+}

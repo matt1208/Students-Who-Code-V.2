@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 export default function Home() {
   return (
     <div className={styles.maincontainer}>
-      {/* Snow here */}
+      <Snow />
       <Head>
         <title>Students Who Code</title>
         <link rel="icon" href="/src/Logo1.png" />
@@ -28,6 +28,14 @@ export default function Home() {
       </div>
       <br></br>
 
+      <div className={styles.promo} style={{alignItems:"center"}}>
+        <center><img src="/snowman.svg" alt="snowman" className={styles.promosnowman}></img></center>
+        <a href="/holiday"><p className={styles.header3} style={{ color: "white",  marginBlockEnd: "10px", textDecoration: "none" }}>Holiday Challenge</p></a>
+        <a href="/holiday"><p className={styles.normaltext} style={{ fontWeight: "bold"}}>A week long challenge during the Holiday week. Your task is to create a web page where you can post your Holiday photos using web technologies.</p></a>
+      </div>
+
+      <br></br><br></br>
+
       <div className={styles.mainpoints}>
         <div className={styles.mainpointscolumn}>
           <center><img src="src/BinaryIcon.png" alt="Code Icon" height="120px" width="120px"></img></center>
@@ -44,7 +52,7 @@ export default function Home() {
       </div>
 
       <br></br>
-     {/* Snow here */}
+     <Snow />
       <div>
         <p className={styles.header3} style={{ color: "white", textAlign: "center" }}>Coding Connected</p>
         <p className={styles.normaltext} style={{ textAlign: "center", paddingLeft: "44px", paddingRight: "44px", fontWeight: "bold" }}>Our platform to help students grow and learn about computer science. Students Who Code wants all students to take part in Coding Connected.</p>
@@ -74,7 +82,8 @@ export default function Home() {
       <script>
         AOS.init();
       </script>
-  
+      <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
     </div>
   )
 }
