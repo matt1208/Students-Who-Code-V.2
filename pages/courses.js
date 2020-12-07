@@ -56,6 +56,11 @@ export default function Home() {
           <p className={styles.tag}>Web Dev</p>
           <Link href="/introprogramming"><button className={styles.secondarybtn}>Start</button></Link>
         </div>
+        <div className={styles.card}>
+          <p className={styles.header4}>Publishing To Github Pages</p>
+          <p className={styles.tag}>Web Dev</p>
+          <Link href="/githubpage"><button className={styles.secondarybtn}>Start</button></Link>
+        </div>
       </div>
 
       <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>

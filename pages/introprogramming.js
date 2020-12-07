@@ -228,6 +228,15 @@ export default function Home() {
 
 
 
+    <div className={styles.upnext}>
+      <center><Link href="/githubpage"><button className={styles.secondarybtndark} style={{width: "200px"}}>Next Course</button></Link></center>
+    </div>
+
+    <br></br>
+
+
+
+
       <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>
       <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
       <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
