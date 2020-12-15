@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Snow from 'resnow'
 import Navbar from '../components/nav'
 import Footer from '../components/footer'
+import Promo from '../components/promo'
 
 export default function Home() {
   return (
@@ -28,11 +29,7 @@ export default function Home() {
       </div>
       <br></br>
 
-      <div className={styles.promo} style={{alignItems:"center"}}>
-        <center><img src="/snowman.svg" alt="snowman" className={styles.promosnowman}></img></center>
-        <a href="/holiday"><p className={styles.header3} style={{ color: "white",  marginBlockEnd: "10px", textDecoration: "none" }}>Holiday Challenge</p></a>
-        <a href="/holiday"><p className={styles.normaltext} style={{ fontWeight: "bold"}}>A week long challenge during the Holiday week. Your task is to create a holiday themed website using web technologies.</p></a>
-      </div>
+      <Promo />
 
       <br></br><br></br>
 

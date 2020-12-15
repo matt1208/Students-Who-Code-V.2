@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Snow from 'resnow'
 import Navbar from '../components/nav'
+import Promo from '../components/promo'
 
 export default function Home() {
   return (
@@ -22,15 +23,10 @@ export default function Home() {
         <div className={styles.tightcolumn}>
           <img src="/src/CC Header.png"></img>
         </div>
-    </div>
-
-    <div className={styles.promo} style={{alignItems:"center"}}>
-        <center><img src="/snowman.svg" alt="snowman" className={styles.promosnowman}></img></center>
-        <a href="/holiday"><p className={styles.header3} style={{ color: "white",  marginBlockEnd: "10px", textDecoration: "none" }}>Holiday Challenge</p></a>
-        <a href="/holiday"><p className={styles.normaltext} style={{ fontWeight: "bold"}}>A week long challenge during the Holiday week. Your task is to create a holiday themed website using web technologies. Click to Sign Up &rarr;	</p></a>
       </div>
 
-    
+      <Promo />
+
       <center><p className={styles.header3} style={{ color: "white" }}>Project Showcase</p></center>
       <div className={styles.grid}>
           <div className={styles.projectshowcase}>
