@@ -17,6 +17,7 @@ export default function Header() {
         <p className={styles.heading}>December 17<sup>th</sup> - 25<sup>th</sup>, 2020</p>
         {/* Registration Form */}
         <button className={styles.btn}><a href="https://airtable.com/shrWZ1BTvA1GzzVnv" target="_blank"> Register Now! </a></button>
+        <button className={styles.btn}><a href="https://airtable.com/shriXnxVjfFk76aiU" target="_blank"> Submit Your Project </a></button>
       </div>  
       <img src="/snowman.svg" alt="snowman" className={styles.snowman} />
     </header>
