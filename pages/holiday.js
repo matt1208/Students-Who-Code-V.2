@@ -3,6 +3,7 @@ import styles from '../styles/Holiday.module.css'
 import Header from '../components/Header'
 import Mission from '../components/Mission'
 import Footer from '../components/Holiday Footer'
+import Submissions from '../components/submissions'
 import Link from 'next/link'
 import Snow from 'resnow'
 
@@ -28,7 +29,7 @@ export default function Home() {
       <Snow />
       </div>
       <div className={styles.container} style={{maxWidth: "100%", overflow: "hidden"}}>
-      <Mission />
+      <Submissions />
       <Snow />
       </div>
       <div className={styles.container} style={{background: "#206391", overflow: "hidden"}}>

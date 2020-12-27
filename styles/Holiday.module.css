@@ -226,3 +226,43 @@
     width: 40vw;
   }
 }
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 20%;
+  padding: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #1F1F1F;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    height: 350px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .grid {
+    display: block;
+  }
+  .card {
+    height: 100%;
+  }
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
