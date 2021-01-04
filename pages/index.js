@@ -9,7 +9,7 @@ import Promo from '../components/promo'
 export default function Home() {
   return (
     <div className={styles.maincontainer}>
-      <Snow />
+      {/* <Snow /> */}
       <Head>
         <title>Students Who Code</title>
         <link rel="icon" href="/src/Logo1.png" />
@@ -27,11 +27,6 @@ export default function Home() {
           <img src="/src/Header.png" height="550px" width="600px"></img>
         </div>
       </div>
-      <br></br>
-
-      <Promo />
-
-      <br></br><br></br>
 
       <div className={styles.mainpoints}>
         <div className={styles.mainpointscolumn}>
@@ -49,27 +44,27 @@ export default function Home() {
       </div>
 
       <br></br>
-     <Snow />
+      {/* <Snow /> */}
       <div>
         <p className={styles.header3} style={{ color: "white", textAlign: "center" }}>Coding Connected</p>
         <p className={styles.normaltext} style={{ textAlign: "center", paddingLeft: "44px", paddingRight: "44px", fontWeight: "bold" }}>Our platform to help students grow and learn about computer science. Students Who Code wants all students to take part in Coding Connected.</p>
       </div>
 
       <div className={styles.connecetedrow}>
-          <div className={styles.connectedcolumn} data-aos="fade-down">
-            <center><img src="src/Message2.png" alt="Connected Graphic" height="100px" width="100px"></img></center>
-            <h2>Code Masters</h2>
-            <p>Code Masters are high school coders who there to help you whenever you have a question or want feeback.</p>
-            <center><Link href="https://airtable.com/shrIVz6b33Sjn6Iyf" target="_blank"><button className={styles.secondarybtndark}>Connect</button></Link></center>
-            <br></br>
-          </div>
-          <div className={styles.connectedcolumn} data-aos="fade-down">
-            <center><img src="src/Spotlight.png" alt="Spotlight" height="100px" width="100px"></img></center>
-            <h2>Submit A Project</h2>
-            <p>Login to submit your coding projects to be spotlighted or featured for its purpose or function!</p>
-            <center><Link href="/codingconnected"><button className={styles.secondarybtndark}>Submit</button></Link></center>
-            <br></br>
-          </div>
+        <div className={styles.connectedcolumn} data-aos="fade-down">
+          <center><img src="src/Message2.png" alt="Connected Graphic" height="100px" width="100px"></img></center>
+          <h2>Code Masters</h2>
+          <p>Code Masters are high school coders who there to help you whenever you have a question or want feeback.</p>
+          <center><Link href="https://airtable.com/shrIVz6b33Sjn6Iyf" target="_blank"><button className={styles.secondarybtndark}>Connect</button></Link></center>
+          <br></br>
+        </div>
+        <div className={styles.connectedcolumn} data-aos="fade-down">
+          <center><img src="src/Spotlight.png" alt="Spotlight" height="100px" width="100px"></img></center>
+          <h2>Submit A Project</h2>
+          <p>Login to submit your coding projects to be spotlighted or featured for its purpose or function!</p>
+          <center><Link href="/codingconnected"><button className={styles.secondarybtndark}>Submit</button></Link></center>
+          <br></br>
+        </div>
       </div>
       <Footer />
 
@@ -80,7 +75,7 @@ export default function Home() {
         AOS.init();
       </script>
       <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" /></noscript>
     </div>
   )
 }

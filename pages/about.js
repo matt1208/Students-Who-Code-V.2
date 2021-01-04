@@ -39,7 +39,7 @@ export default function Home() {
     </div>
 
     <div className={styles.courselist}>
-      <p>Students wanting to learn will no longer have to sign up or login. When trying to make the user experience better it was realized that making people sign up was another obstacle for students wanting to learn. Now, no one needs to input personal information, be required a have an email, or remember a password. Anyone with an old member account should not worry as the old database will be deleted shortly after the deployment of V.2</p>
+      <p>Students wanting to learn will no longer have to sign up or login. When trying to make the user experience better it was realized that making people sign up was another obstacle for students wanting to learn. Now, no one needs to input personal information, be required to have an email, or remember a password. Anyone with an old member account should not worry as the old database will be deleted shortly after the deployment of V.2.</p>
     </div>
 
     <div className={styles.subheader}>
