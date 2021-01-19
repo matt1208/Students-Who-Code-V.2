@@ -24,7 +24,7 @@ export default function Home() {
           <Link href="/courses"><button className={styles.headerbtn}>Get Started</button></Link>
         </div>
         <div className={styles.tightcolumn}>
-          <img src="/src/Header.png" height="550px" width="600px"></img>
+          <img src="/src/Header.png" height="550px" width="600px" alt="Students Who Code Header Graphic: Code, Connect, Learn"></img>
         </div>
       </div>
 
