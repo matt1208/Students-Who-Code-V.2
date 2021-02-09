@@ -15,10 +15,10 @@ export default function Home() {
       <Navbar />
       <br></br>
 
-      <div className={styles.signuparea} style={{padding: "20px"}}>
-        <p className={styles.mainheader} style={{color: "white", textAlign: "center"}}>Sorry, our Contact Form is currently under development!</p>
-        <p className={styles.normaltext} style={{textAlign: "center"}}>If you would like to contact Students Who Code, either email us at support@studentswhocode.org or use the Ask A Question chat at the bottom of the page!</p>
-      {/* <div className={styles.signupcolumn} style={{borderRight: "2px solid #E7DFC6"}}>
+      <div className={styles.signuparea} style={{ padding: "20px" }}>
+        <p className={styles.mainheader} style={{ color: "white", textAlign: "center" }}>Sorry, our Contact Form is currently under development!</p>
+        <p className={styles.normaltext} style={{ textAlign: "center" }}>If you would like to contact Students Who Code use the Ask A Question chat at the bottom of the page!</p>
+        {/* <div className={styles.signupcolumn} style={{borderRight: "2px solid #E7DFC6"}}>
         <center><img src="src/Logo1.png" alt="SWC Logo" height="300px" width="300px" style={{marginTop: "150px;"}}></img></center>
         <p><b>Reach Out</b></p>
         <p>Send us questions, comments, or feedback!</p>
@@ -60,11 +60,11 @@ export default function Home() {
         </div>
         </form>
       </div> */}
-    </div>
+      </div>
 
-    <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>
-    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+      <script src="https://embed.small.chat/T015AE2ETNHG015AE5MT3P.js" async></script>
+      <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" /></noscript>
     </div>
   )
 }
